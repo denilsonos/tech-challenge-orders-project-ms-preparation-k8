@@ -1,0 +1,4 @@
+kubectl apply -f kubernetes/deployment-app.yaml
+kubectl apply -f kubernetes/hpa.yaml
+kubectl apply -f kubernetes/service-app.yaml
+kubectl apply -f kubernetes/load-balancer.yaml
