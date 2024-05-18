@@ -16,7 +16,7 @@ spec:
       - name: fiap-preparation-app
         image: DOCKER_IMAGE
         ports:
-        - containerPort: 3001
+        - containerPort: 3000
         envFrom:
         - secretRef:
             name: app-secret
